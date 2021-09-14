@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="tohnRJr@lH6ft*n)n;mQ" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="kxQ^{bxn9egAPiN:|+#9"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="controls_if" id="k!c2G?Ydgc#Xtl0E$ul#"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="mbit_Voice_Sensor" id="3{(,%aZq-MyV1^,Tpkt:"><field name="pin">DigitalPin.P0</field><field name="value">mbit_传感器类.enVoice.Voice</field></block></value><statement name="DO0"><block type="device_show_leds" id="+?G;`]:z[?w!_fv9@PJS"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field><next><block type="device_pause" id="YMkW~`gP0Lw5^Y-wNRc_"><value name="pause"><shadow type="timePicker" id="@1(6D/Yr$bVMd*N_q!us"><field name="ms">1000</field></shadow></value></block></next></block></statement></block></next></block></statement></block></xml>
